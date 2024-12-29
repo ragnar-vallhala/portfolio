@@ -1,0 +1,33 @@
+.Developer {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.links {
+  display: block;
+  justify-content: center; /* Center links horizontally */
+  gap: 15px;              /* Space between links */
+  margin-top: 20px;
+}
+
+.c-image {
+  width: 100px;
+  margin: 30px;
+  transition: transform 0.5s ease-out;
+}
+
+.c-image:hover {
+  transform: scale(1.4);
+}
+
+.Nav {
+  position: fixed; /* Fixed to the viewport */
+  bottom: 1%;
+  right: 1%;
+  z-index: 10;
+}
+
+.arrange {
+  text-decoration: none; /* Remove underline from links */
+}
+

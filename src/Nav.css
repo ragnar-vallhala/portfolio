@@ -1,0 +1,18 @@
+.Nav{
+  display: flex;
+}
+.Nav-item{
+  flex: 1 1 auto;
+  margin: 10px;
+}
+.secondary-color:hover{
+  color:#f5efe7;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: font-size  0.3s ease-out ;
+}
+.secondary-color{
+  color:#f5efe7;
+  font-size: 1em;
+}
+

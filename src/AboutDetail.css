@@ -1,0 +1,21 @@
+.about-detail{
+  max-width: 50vw;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+.list-item{
+  font-size: 1.3em;
+  color:#d8c4b6;
+  margin-bottom: 10px;
+  transition: font-size 0.3s ease-out;
+}
+
+
+.list-item:hover{
+  font-size: 1.5em;
+  color:#f5efe7;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
