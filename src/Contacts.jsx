@@ -18,7 +18,7 @@ const Contacts = () => {
         <a href="mailto:ashutoshvishwakarma208@gmail.com" target="_blank" rel="noreferrer" className='arrange'>
           <img src='/mail.png' className='c-image' alt='Mail' />
         </a>
-        <a href="https://github.com/ragnar-vallhala/shader-fun/issues" target="_blank" rel="noreferrer" className='arrange'>
+        <a href="https://github.com/ragnar-vallhala/portfolio/issues" target="_blank" rel="noreferrer" className='arrange'>
           <img src='/bug.png' className='c-image' alt='Report Issue' />
         </a>
       </div>

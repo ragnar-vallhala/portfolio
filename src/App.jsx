@@ -6,9 +6,12 @@ import Contacts from './Contacts';
 import About from './About';
 import NotFound from './NotFound';
 function App() {
-
+  const width = window.innerWidth;
+  if (width < 1280) {
+    alert("Open the website as Desktop Site for better experience.");
+  }
   return (
-     <Router classname='App'>
+    <Router classname='App'>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
